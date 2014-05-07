@@ -13,7 +13,7 @@ The ChargeBee Service Provider can be installed via [Composer](http://getcompose
 ```json
 {
     "require": {
-        "lshin/chargebee-laravel4": "1.*"
+        "lshin/chargebee-laravel4": "0.*"
     }
 }
 ```
