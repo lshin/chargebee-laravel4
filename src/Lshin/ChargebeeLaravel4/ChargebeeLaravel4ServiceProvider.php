@@ -4,7 +4,7 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
 use \Chargebee_Environment;
 
-class ChargebeeLaravel4ServiceProvider extends ServiceProvider {
+class ChargeBeeLaravel4ServiceProvider extends ServiceProvider {
 
   /**
    * Indicates if loading of the provider is deferred.
