@@ -30,7 +30,7 @@ class ChargebeeLaravel4ServiceProvider extends ServiceProvider {
      */
     public function register()
     {
-        $this->add['config']->package('lshin/chargebee-laravel4', __DIR__.'/../../config');
+        $this->package('lshin/chargebee-laravel4', __DIR__.'/../../config');
         Chargebee_Environment::configure(
           $this->app['config']->get('chargebee-laravel4::config.site', null),
           $this->app['config']->get('chargebee-laravel4::config.api_key', null)
