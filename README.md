@@ -30,7 +30,7 @@ To use the ChargeBee Service Provider, you must register the provider when boots
 
 Add 'Lshin\ChargeBeeLaravel4\ChargebeeLaravel4ServiceProvider' to the list of service providers in app/config/app.php
 ```php
-'Lshin\ChargeBeeLaravel4\ChargebeeLaravel4ServiceProvider',
+'Lshin\ChargebeeLaravel4\ChargebeeLaravel4ServiceProvider',
 ```
 
 Create a config file for the package
