@@ -28,7 +28,7 @@ composer update
 
 To use the ChargeBee Service Provider, you must register the provider when bootstrapping your Laravel application.
 
-Add 'Lshin\ChargeBeeLaravel4\ChargebeeLaravel4ServiceProvider' to the list of service providers in app/config/app.php
+Add 'Lshin\ChargebeeLaravel4\ChargebeeLaravel4ServiceProvider' to the list of service providers in app/config/app.php
 ```php
 'Lshin\ChargebeeLaravel4\ChargebeeLaravel4ServiceProvider',
 ```
